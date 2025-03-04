@@ -1,0 +1,32 @@
+{
+  "name": "twister-discord-bot",
+  "version": "1.0.0",
+  "description": "Web scraper bot that posts to the Cincinnati Cyclones Discord about any news related to the Cincinnati Cyclones and it's players.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahtee/twister-discord-bot.git"
+  },
+  "keywords": [
+    "discord-bot",
+    "bot",
+    "discord",
+    "hockey",
+    "cincinnati",
+    "cyclones"
+  ],
+  "author": "ahtee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahtee/twister-discord-bot/issues"
+  },
+  "homepage": "https://github.com/ahtee/twister-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "puppeteer": "^24.3.1"
+  }
+}
